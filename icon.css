@@ -66,3 +66,33 @@ ul li::after{
 ul li:hover::after{
     opacity: 0.5;
 }
+
+ul li ion-icon{
+    color: #777;
+    font-size: 1.75em;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+
+ul li:hover ion-icon{
+    transform: scale(0);
+    color: #fff;
+    transition-delay: 0s;
+}
+
+ul li span{
+    position: absolute;
+}
+
+ul li .title{
+    color: #fff;
+    font-size: 1.25s;
+    text-transform: 0.1em;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+ul li:hover .title{
+    transform: scale(1);
+}
